@@ -1,0 +1,51 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key" : "alt+1" ,
+    "command" : "workbench.action.toggleActivityBarVisibility",
+  },
+  {
+    "key" : "alt+2" ,
+    "command" : "workbench.action.toggleSidebarVisibility",
+  },
+  {
+    "key" : "ctrl+d",
+    "command" : "editor.action.smartSelect.expand" ,
+    "when": "editorTextFocus"
+  },
+  {
+    "key" : "ctrl+shift+d",
+    "command" : "editor.action.addSelectionToNextFindMatch" ,
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.quickOpen"
+  },
+    {
+      "key": "ctrl+r",
+      "command": "workbench.action.gotoSymbol"
+    },
+  {
+    "key": "ctrl+shit+o",
+    "command": "revealFileInOS"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "revealFileInOS",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "remote-wsl.revealInExplorer",
+    "when": "editorFocus && remoteName == 'wsl'"
+  },
+  {
+    "key" : "ctrl+n",
+    "command" : "explorer.newFile"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  }
+]

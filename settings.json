@@ -1,0 +1,313 @@
+{
+  "sync.gist": "b6c2c4f4f23eb9eb9d940efb1d54e28e",
+  "editor.suggestSelection": "first",
+  "editor.accessibilitySupport": "off",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.lineHeight": 20,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "Fira Code", // https://github.com/tonsky/FiraCode
+  "editor.codeLensFontFamily": "Fira Code",
+  "editor.fontLigatures": "'cv01', 'cv02', 'cv10', 'ss02', 'cv11', 'cv14', 'ss05','ss03','ss09','cv25','cv26','cv32','cv27','ss06','ss07'",
+  "editor.largeFileOptimizations": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.find.cursorMoveOnType": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.codeLens": false,
+  "editor.inlayHints.padding": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "files.defaultLanguage": "markdown",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "files.exclude": {
+    "**/.git": false,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.classpath": true,
+    "**/.factorypath": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "json.maxItemsComputed": 8000,
+  // "inline-parameters.hideRedundantAnnotations": false,
+  "inline-parameters.fontSize": "0.8em",
+  //! < FORMATTER & LINTERS >
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "emmet.triggerExpansionOnTab": true,
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editor.defaultBinaryEditor": "default",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.limit.value": 5,
+  "workbench.editor.limit.enabled": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#171717",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#b8b8b8",
+    "tab.activeBorder": "#ffffff",
+    "activityBar.foreground": "#ffffff",
+    "statusBar.background": "#171717",
+    "statusBar.foreground": "#ffffff"
+  },
+  //! < RAINBOW INDENT >
+  "indentRainbow.colors": [
+    "rgba(16,16,16,0.1)",
+    // "rgba(16,16,16,0.2)",
+    "rgba(16,16,16,0.3)",
+    // "rgba(16,16,16,0.4)",
+    "rgba(16,16,16,0.5)",
+    // "rgba(16,16,16,0.6)",
+    "rgba(16,16,16,0.7)",
+    // "rgba(16,16,16,0.8)",
+    "rgba(16,16,16,0.9)",
+    "rgba(16,16,16,1.0)"
+  ],
+  //! < BRACKETS >
+  "bracket-pair-colorizer-2.colors": [
+    "#D39E17",
+    "#A15DEF",
+    "#3398DB",
+    "#1ec5a9"
+  ],
+  //! < LIVE SERVER >
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  //! < JAVA PATHS >
+  "java.home": "P:\\dev\\java development kit\\jdk-11",
+  //! < TERMINALS >
+  //? Customizes which terminal to run on Linux.
+  "terminal.external.linuxExec": "wsl.exe",
+  //? Customizes which terminal to run on Windows.
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\wsl.exe",
+  //? Customizes which integrated shell to run on VSCode.
+  "terminal.integrated.profiles.windows": {
+    "PowerShell win32": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "icon": "terminal-powershell",
+      "color": "terminal.ansiCyan"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "PowerShell 7": {
+      "source": "PowerShell"
+      // "path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  //? A string containing all characters to be considered word separators by the double click to select word feature.
+  "terminal.integrated.wordSeparators": " ()[]{}',\"`─",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.localEchoLatencyThreshold": 100,
+  "terminal.integrated.localEchoStyle": "dim",
+  //! < DISCORD >
+  "discord.detailsEditing": " ∼ / {workspace_folder}",
+  "discord.lowerDetailsNoWorkspaceFound": "ahegao",
+  "discord.lowerDetailsEditing": "{file_name}",
+  "discord.smallImage": "free to play",
+  "discord.largeImage": "{LANG}",
+  "discord.detailsDebugging": "Debugging {file_name} ",
+  "discord.lowerDetailsDebugging": "it don't work ? idk why, it work ? idk why ..",
+  "discord.lowerDetailsIdling": "still choosing my font",
+  "discord.detailsIdling": "still choosing my font",
+  "discord.largeImageIdling": "log.console(\"xd\"),",
+  //! < GITLENS >
+  "gitlens.menus": false,
+  "gitlens.defaultDateFormat": null,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.scopes": ["containers", "document"],
+  "gitlens.blame.highlight.locations": ["line", "gutter", "overview"],
+  "gitlens.statusBar.format": "${authorNotYou} - ${agoOrDate}${' via 'pullRequest}",
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.changes.locations": ["gutter", "overview"],
+  "gitlens.heatmap.locations": ["gutter", "overview"],
+  "gitlens.statusBar.alignment": "left",
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.currentLine.details": false,
+  "gitlens.views.formats.commits.label": "${❰ tips ❱ ➤ }${message}  ❱",
+  "gitlens.views.stashes.files.layout": "tree",
+  "gitlens.views.commits.pullRequests.showForBranches": false,
+  "gitlens.views.commits.showBranchComparison": false,
+  "gitlens.views.commits.files.layout": "tree",
+  "gitlens.views.formats.commits.description": "${authorNotYou} [ ${agoOrDateShort} ]",
+  "gitlens.views.formats.stashes.description": "${stashOnRef}  ${agoOrDate}",
+  "gitlens.views.repositories.showUpstreamStatus": false,
+  "gitlens.views.repositories.showIncomingActivity": true,
+  "gitlens.views.repositories.files.layout": "tree",
+  "gitlens.views.repositories.showBranchComparison": false,
+  "gitlens.views.repositories.showTags": false,
+  "gitlens.views.repositories.showContributors": false,
+  "gitlens.views.fileHistory.files.layout": "tree",
+  "gitlens.views.fileHistory.avatars": false,
+  "gitlens.views.showRelativeDateMarkers": false,
+  "gitlens.views.remotes.files.layout": "tree",
+  "gitlens.views.branches.pullRequests.enabled": false,
+  //! < BETTER COMMENTS >
+  "better-comments.tags": [
+    // {
+    //   // commentary
+    //   "tag": "",
+    //   "color": "#007a64",
+    //   "strikethrough": false,
+    //   "underline": false,
+    //   "backgroundColor": "#transparent",
+    //   "bold": false,
+    //   "italic": false
+    // },
+    {
+      //! commentary
+      "tag": "!",
+      "color": "#d1c000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#000000",
+      "bold": false,
+      "italic": true
+    },
+    {
+      //? commentary
+      "tag": "?",
+      "color": "#545454",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#000000",
+      "bold": false,
+      "italic": false
+    },
+    {
+      //- commentary
+      "tag": "-",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      //: commentary
+      "tag": ":",
+      "color": "#000000",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#474747",
+      "bold": true,
+      "italic": true
+    },
+    {
+      //= commentary
+      "tag": "=",
+      "color": "#363636",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#1a1a1a",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  //! < TODO TREE >
+  // https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+  // https://primer.style/octicons/
+  "todo-tree.regex.regex": "(//)\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.tree.showBadges": true,
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "fix problem",
+    "FIX",
+    "TODO",
+    "todo",
+    "!",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "BUG": {
+      "icon": "bug",
+      "type": "text",
+      "background": "#FF0000",
+      "foreground": "#000000",
+      "opacity": 100,
+      "iconColour": "#00FF00",
+      "gutterIcon": true
+    },
+    "TODO": {
+      "icon": "three-bars",
+      "type": "line",
+      "background": "#00FF00",
+      "foreground": "#FFFFFF",
+      "iconColour": "#00FF00",
+      "gutterIcon": true
+    },
+    "!": {
+      "icon": "chevron-right",
+      "background": "#000000",
+      "foreground": "#555555",
+      "iconColour": "#FFFF00",
+      "gutterIcon": true
+    },
+    "fix problem": {
+      "icon": "flame",
+      "background": "#FF0000",
+      "foreground": "#000000",
+      "iconColour": "#FFFF00",
+      "gutterIcon": true
+    }
+  },
+  "todo-tree.general.tagGroups": {
+    "fix problem": ["fix problem", "FIX"],
+    "TODO": ["TODO", "todo"]
+  },
+  "todo-tree.general.statusBar": "total",
+  "unsorted": {
+    //?    UNSORTED    PARAMETERS    BELOW ?//
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "projectManager.git.baseFolders": ["C:\\Users\\shao\\workspace"],
+  "projectManager.sortList": "Name",
+  "gitlens.hovers.autolinks.enabled": false,
+  "gitlens.hovers.autolinks.enhanced": false,
+  "gitlens.views.commitDetails.autolinks.enabled": false,
+  "gitlens.views.commitDetails.autolinks.enhanced": false,
+  "window.commandCenter": true,
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "git.enableSmartCommit": true,
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "window.menuBarVisibility": "compact",
+  "editor.guides.bracketPairs": true
+  //?    UNSORTED    PARAMETERS          ?//
+}
