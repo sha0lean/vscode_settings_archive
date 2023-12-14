@@ -1,51 +1,47 @@
-// Place your key bindings in this file to override the defaultsauto[]
+// Placer vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
 [
   {
-    "key" : "alt+1" ,
-    "command" : "workbench.action.toggleActivityBarVisibility",
+    "key": "alt+5",
+    "command": "workbench.action.toggleStatusbarVisibility"
   },
   {
-    "key" : "alt+2" ,
-    "command" : "workbench.action.toggleSidebarVisibility",
+    "key": "alt+4",
+    "command": "workbench.action.toggleAuxiliaryBar"
   },
   {
-    "key" : "ctrl+d",
-    "command" : "editor.action.smartSelect.expand" ,
-    "when": "editorTextFocus"
+    "key": "ctrl+alt+b",
+    "command": "-workbench.action.toggleAuxiliaryBar"
   },
   {
-    "key" : "ctrl+shift+d",
-    "command" : "editor.action.addSelectionToNextFindMatch" ,
-    "when": "editorFocus"
+    "key": "shift+alt+g",
+    "command": "workbench.view.extension.gitlens"
   },
   {
-    "key": "ctrl+o",
-    "command": "workbench.action.quickOpen"
-  },
-    {
-      "key": "ctrl+r",
-      "command": "workbench.action.gotoSymbol"
-    },
-  {
-    "key": "ctrl+shit+o",
-    "command": "revealFileInOS"
+    "key": "alt+3",
+    "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "ctrl+shift+o",
-    "command": "revealFileInOS",
-    "when": "!editorFocus"
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "ctrl+shift+o",
-    "command": "remote-wsl.revealInExplorer",
-    "when": "editorFocus && remoteName == 'wsl'"
+    "key": "alt+1",
+    "command": "workbench.action.activityBarLocation.side"
   },
   {
-    "key" : "ctrl+n",
-    "command" : "explorer.newFile"
+    "key": "alt+2",
+    "command": "workbench.action.activityBarLocation.top"
   },
   {
-    "key": "ctrl+t",
-    "command": "workbench.action.terminal.toggleTerminal"
+    "key": "alt+6",
+    "command": "tailwind-fold.toggleAutoFold"
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "-tailwind-fold.toggleAutoFold"
+  },
+  {
+    "key": "alt+6",
+    "command": "-workbench.action.openEditorAtIndex6"
   }
 ]
