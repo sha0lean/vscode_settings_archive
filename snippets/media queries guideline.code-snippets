@@ -1,5 +1,0 @@
-@media (min-width:    0px) {} //  to 0
-@media (min-width:  640px) {} //  40rem xs
-@media (min-width: 1024px) {} //  64rem sm
-@media (min-width: 1440px) {} //  90rem md
-@media (min-width: 1920px) {} // 120rem lg
