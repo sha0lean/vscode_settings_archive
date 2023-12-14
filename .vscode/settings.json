@@ -1,8 +1,0 @@
-{
-  "files.exclude": {
-    "workspaceStorage": true,
-    "globalStorage": true,
-    "sync": true
-  },
-  "workspace.isHidden": true
-}
